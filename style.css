@@ -86,6 +86,7 @@ section {
 
 .header .navbar a:hover {
     color: var(--yellow);
+    background: var(--light-yellow);
 }
 
 
@@ -209,9 +210,54 @@ section {
     margin: 1rem 0;
 }
 
+/* icons section */
 
+.icons-container{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+    background: #eee;
+}
 
+.icons-container .icons{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: var(--box-shadow2);
+    border-radius: .5rem;
+}
 
+.icons-container .icons i{
+    height: 5.5rem;
+    width: 5.5rem;
+    line-height: 5.5rem;
+    font-size: 2.5rem;
+    border-radius: 30%;
+    background: #eee;
+    color: var(--black);
+    text-align: center;
+}
+
+.icons-container .icons .content h3{
+    color: var(--yellow);
+    font-size: 2rem;
+}
+
+.icons-container .icons:hover{
+    background: var(--black);
+}
+
+.icons-container .icons:hover .content h3{
+    color: #fff;
+}
+
+.icons-container .icons:hover .content p{
+    color: #eee;
+}
 
 
 
