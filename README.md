@@ -1,6 +1,6 @@
-# Proxima Cars 🚗🏢  
+# Velocity Cars 🚗🏢  
 
-**Proxima Cars** is a dealership website designed to showcase a curated inventory of cars available for sale. Built with a clean and responsive layout, the site provides customers with all the information they need about the cars on offer, making it easy to browse and choose their next vehicle.
+**Velocity Cars** is a dealership website designed to showcase a curated inventory of cars available for sale. Built with a clean and responsive layout, the site provides customers with all the information they need about the cars on offer, making it easy to browse and choose their next vehicle.
 
 ---
 
@@ -14,7 +14,7 @@
 ## How to Use  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/proxima-cars.git
+   git clone https://github.com/your-username/Velocity-cars.git
    
 2. Open the index.html file in your browser to view the dealership's offerings.
 
@@ -23,7 +23,7 @@
 - **CSS3**: For styling and layout.
 - **JavaScript**: For interactivity and enhanced user experience.
 
-About Proxima Cars
-Proxima Cars is a trusted car dealership, dedicated to providing a diverse range of high-quality vehicles to meet every customer's needs.
+About Velocity Cars
+Velocity Cars is a trusted car dealership, dedicated to providing a diverse range of high-quality vehicles to meet every customer's needs.
 
 📧 Contact Us: your-email@example.com
