@@ -26,8 +26,22 @@ closeLogin.addEventListener('click', function (){
     document.querySelector('.login-form-container').classList.remove('show-login')
 })
 
+// paralloxing the home page
 
-const home = document.querySelector('.home')
-const homePar = document.querySelectorAll('.home-parallax')
+document.querySelector('.home').onmousemove = (e) => {
+    document.querySelectorAll('.home-parallax').forEach(elm => {
+        let speed = elm.getAttribute('data-speed');
+       let x = (e.pageX - window.innerWidth / 2) * speed / 90;
+        let y = (e.pageY - window.innerHeight / 2) * speed / 90;
 
-// controlling home page
+        elm.style.transform = `translateX(${x}px) translateY(${y}px)`;
+    });
+}
+
+
+document.querySelector('.home').onmouseleave = () => {
+    document.querySelectorAll('.home-parallax').forEach(elm => {
+
+        elm.style.transform = `translateX(0px) translateY(0px)`;
+    });
+}
