@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proxima Cars</title>
+    <!-- Swiper CDN -->
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
@@ -59,7 +62,7 @@
 
 <section class="home" id="home">
     <h1 class="home-parallax" data-speed="-2">find your car</h1>
-    <img class="home-parallax" data-speed="5" src="./images/home.jpeg" alt="">
+    <img class="home-parallax" data-speed="5" src="./images/home-image.png" alt="">
     <a href="#" class="btn home-parallax" data-speed="7">explore cars</a>
 </section>
 
@@ -112,8 +115,118 @@
 
  <!-- vehicles section starts -->
 
- 
+ <section class="vehicles" id="vehicles">
+
+    <h1 class="heading"> popular <span>vehicles</span></h1>
+    <div class="swiper vehicles-slider">
+        <div class="swiper-wrapper">
+
+            <div class="box swiper-slide">
+                <img src="./images/image-1.jpg" alt="">
+                <div class="content">
+                    <h3>Rolls-Royce</h3>
+                    <div class="price">  <span>price:</span>  ETB 26,500,000 </div>
+                    <p>
+                         <span class="fas fa-circle"></span> new
+                         <span class="fas fa-circle"></span> 2022
+                         <span class="fas fa-circle"></span> automatic and manual
+                         <span class="fas fa-circle"></span> petrol
+                         <span class="fas fa-circle"></span> 255mph
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="box swiper-slide">
+                <img src="./images/image-22.jpg" alt="">
+                <div class="content">
+                    <h3>new model</h3>
+                    <div class="price"> <span>price:</span> ETB 16,500,000 </div>
+                    <p>
+                        <span class="fas fa-circle"></span> new
+                        <span class="fas fa-circle"></span> 2023
+                        <span class="fas fa-circle"></span> manual
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> 183mph
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="box swiper-slide">
+                <img src="./images/image-3.jpg" alt="">
+                <div class="content">
+                    <h3>new model</h3>
+                    <div class="price"> <span>price:</span> ETB 23,000,000/- </div>
+                    <p>
+                        <span class="fas fa-circle"></span> new
+                        <span class="fas fa-circle"></span> 2024
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> 200mph
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="box swiper-slide">
+                <img src="./images/image-4.webp" alt="">
+                <div class="content">
+                    <h3>new model</h3>
+                    <div class="price"> <span>price:</span> ETB 13,500,000/- </div>
+                    <p>
+                        <span class="fas fa-circle"></span> new
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> 225mph
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="box swiper-slide">
+                <img src="./images/image-55.webp" alt="">
+                <div class="content">
+                    <h3>new model</h3>
+                    <div class="price"> <span>price:</span> ETB 9,500,000/- </div>
+                    <p>
+                        <span class="fas fa-circle"></span> new
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> 183mph
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="box swiper-slide">
+                <img src="./images/image-66.jpg" alt="">
+                <div class="content">
+                    <h3>new model</h3>
+                    <div class="price"> <span>price:</span> ETB 18,600,000/- </div>
+                    <p>
+                        <span class="fas fa-circle"></span> new
+                        <span class="fas fa-circle"></span> 2024
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> 250mph
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+    </div>
+ </section>
  <!-- vehicles section ends -->
+
+ <!-- swiper CDN js sript -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 
 <!-- javascript -->
 <script src="./script.js"></script>
