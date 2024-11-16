@@ -468,6 +468,7 @@ section {
 .newsletter{
     padding: 6rem 2rem;
     text-align: center;
+    background: #eee;
 }
 
 .newsletter h3{
@@ -515,7 +516,51 @@ section {
 }
 
 
+/* reviews section */
 
+.reviews .reviews-slider{
+    padding-bottom: 3rem;
+}
+
+.reviews .reviews-slider .box{
+    padding: 2rem ;
+    margin: 2rem 0;
+    text-align: center;
+    opacity: .4;
+    transform: scale(.9);
+
+}
+
+.reviews .reviews-slider .swiper-slide-active{
+    opacity: 1;
+    transform: scale(1);
+    box-shadow: var(--box-shadow2);
+    border: var(--border);
+}
+
+.reviews .reviews-slider .box img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.reviews .reviews-slider .box .content p{
+    font-size: 1.6rem;
+    color: var(--light-color);
+    padding: 1rem 0;
+}
+
+.reviews .reviews-slider .box .content h3{
+    font-size: 2.3rem;
+    color: var(--black);
+    padding-bottom: ,7rem;
+}
+
+.reviews .reviews-slider .box .content i {
+    font-size: 1.7rem;
+    color: var(--yellow);
+}
 
 
 
