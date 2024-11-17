@@ -563,9 +563,51 @@ section {
 }
 
 
+/* contacts section */
 
 
+.contact .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
 
+.contact .row .map{
+    flex: 1 1 42rem;
+    width: 100%;
+}
+
+.contact .row form{
+    flex: 1 1 42rem;
+    padding: 2rem;
+    border: var(--border);
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow2);
+    margin: 1rem;
+    text-align: center;
+}
+
+.contact .row form .box{
+    padding: 1rem;
+    width: 90%;
+    border-radius: 1rem;
+    border: var(--border);
+    margin: 1rem;
+    box-shadow: var(--box-shadow2);
+    color: var(--black);
+    font-size: 1.6rem;
+}
+
+.contact .row form h3{
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.contact .row form textarea{
+    height: 15rem;
+    resize: none;
+}
 
 
 /* media queries */
@@ -575,6 +617,7 @@ section {
     html {
         font-size: 55%;
     }
+}
 
     .header {
         padding: 2rem;
